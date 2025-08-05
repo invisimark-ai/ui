@@ -18,10 +18,10 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
       <img
         src={imgSrc}
         alt={name}
-        className="w-24 h-24 sm:w-28 sm:h-28 rounded-full object-cover mb-2 border border-[#444]"
+        className="w-24 h-24 sm:w-28 sm:h-28 rounded-full object-cover mb-2 border border-gray-700"
       />
       <h3 className="text-base font-semibold leading-tight">{name}</h3>
-      <p className="text-sm text-[#aaa] mt-0.5">{role}</p>
+      <p className="text-sm text-gray-400 mt-0.5">{role}</p>
       {linkedinUrl && (
         <a
           href={linkedinUrl}
